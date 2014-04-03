@@ -1,0 +1,6 @@
+*.keystore
+bin/
+dist/
+gen/
+.DS_Store
+.project

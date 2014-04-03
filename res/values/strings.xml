@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DPixel</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_tab1">Pixel</string>
+    <string name="title_tab2">DP</string>
+    <string name="default_text_dp">0dp</string>
+    <string name="default_text_px">0px</string>
+    <string name="ldpi">LDPI</string>
+    <string name="mdpi">MDPI</string>
+    <string name="hdpi">HDPI</string>
+    <string name="xhdpi">XHDPI</string>
+    <string name="xxhdpi">XXHDPI</string>
+    <string name="xxxhdpi">XXXHDPI</string>
+    <string name="dp_entry_hint">DP</string>
+    
+    <string-array name="pixel_spinner">
+        <item>LDPI</item>
+        <item>MDPI</item>
+        <item>HDPI</item>
+        <item>XHDPI</item>
+        <item>XXHDPI</item>
+        <item>XXXHDPI</item>
+    </string-array>
+
+</resources>

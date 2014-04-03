@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/fragment_pixel_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="110sp" />
+
+    <Spinner
+        android:id="@+id/fragment_pixel_spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_pixel_entry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/pixel_spinner"
+        android:padding="10dp"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/fragment_pixel_dpamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_pixel_spinner"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:textSize="70sp" />
+
+</RelativeLayout>

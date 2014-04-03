@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/fragment_dp_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:textSize="110sp" />
+
+    <TextView
+        android:id="@+id/fragment_dp_xxxhdpi_key"
+        style="@style/DPToPixelTextView.Key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/xxxhdpi" />
+
+    <TextView
+        android:id="@+id/fragment_dp_xxxhdpi_value"
+        style="@style/DPToPixelTextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/default_text_px" />
+
+    <TextView
+        android:id="@+id/fragment_dp_xxhdpi_key"
+        style="@style/DPToPixelTextView.Key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_xxxhdpi_key"
+        android:text="@string/xxhdpi" />
+
+    <TextView
+        android:id="@+id/fragment_dp_xxhdpi_value"
+        style="@style/DPToPixelTextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_xxxhdpi_key"
+        android:layout_alignParentRight="true"
+        android:text="@string/default_text_px" />
+
+    <TextView
+        android:id="@+id/fragment_dp_xhdpi_key"
+        style="@style/DPToPixelTextView.Key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_xxhdpi_key"
+        android:text="@string/xhdpi" />
+
+    <TextView
+        android:id="@+id/fragment_dp_xhdpi_value"
+        style="@style/DPToPixelTextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_xxhdpi_key"
+        android:layout_alignParentRight="true"
+        android:text="@string/default_text_px" />
+
+    <TextView
+        android:id="@+id/fragment_dp_hdpi_key"
+        style="@style/DPToPixelTextView.Key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_xhdpi_key"
+        android:text="@string/hdpi" />
+
+    <TextView
+        android:id="@+id/fragment_dp_hdpi_value"
+        style="@style/DPToPixelTextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_xhdpi_key"
+        android:layout_alignParentRight="true"
+        android:text="@string/default_text_px" />
+
+    <TextView
+        android:id="@+id/fragment_dp_mdpi_key"
+        style="@style/DPToPixelTextView.Key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_hdpi_key"
+        android:text="@string/mdpi" />
+
+    <TextView
+        android:id="@+id/fragment_dp_mdpi_value"
+        style="@style/DPToPixelTextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_hdpi_key"
+        android:layout_alignParentRight="true"
+        android:text="@string/default_text_px" />
+
+    <TextView
+        android:id="@+id/fragment_dp_ldpi_key"
+        style="@style/DPToPixelTextView.Key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_mdpi_key"
+        android:text="@string/ldpi" />
+
+    <TextView
+        android:id="@+id/fragment_dp_ldpi_value"
+        style="@style/DPToPixelTextView.Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fragment_dp_mdpi_key"
+        android:layout_alignParentRight="true"
+        android:text="@string/default_text_px" />
+
+</RelativeLayout>
